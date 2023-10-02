@@ -3,13 +3,16 @@ package com.gridnine.testing.filter;
 import com.gridnine.testing.model.Flight;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class FlightFilter {
     private List<FlightFilterStrategy> filterStrategies;
 
-    public FlightFilter(List<FlightFilterStrategy> filterStrategies) {
-        this.filterStrategies = filterStrategies;
+    private FlightFilter() {}
+
+    public FlightFilter(FlightFilterStrategy... filterStrategy) {
+        this.filterStrategies = new ArrayList<>(Arrays.asList(filterStrategy));
     }
 
     public List<Flight> filterFlights(List<Flight> flights) {

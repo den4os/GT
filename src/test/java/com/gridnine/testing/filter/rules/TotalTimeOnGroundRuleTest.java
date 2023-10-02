@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -47,7 +48,7 @@ public class TotalTimeOnGroundRuleTest {
     @Test
     public void testEmptySegments() {
         initializeRule = false;
-        Flight emptyFlight = new Flight(Arrays.asList());
+        Flight emptyFlight = new Flight(List.of());
 
         assertFalse(rule.isFlightValid(emptyFlight));
     }

@@ -17,15 +17,10 @@ public class SegmentsArrivalBeforeDepartureRule implements FlightFilterStrategy 
             return false;
         }
 
-        Segment previousSegment = segments.get(0);
-        for (int i = 1; i < segments.size(); i++) {
-            Segment currentSegment = segments.get(i);
-
-            if (currentSegment.getDepartureDate().isBefore(previousSegment.getArrivalDate())) {
+        for (Segment currentSegment : segments) {
+            if (currentSegment.getArrivalDate().isBefore(currentSegment.getDepartureDate())) {
                 return false;
             }
-
-            previousSegment = currentSegment;
         }
 
         return true;

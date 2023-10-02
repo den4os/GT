@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -28,7 +29,7 @@ public class DepartureBeforeCurrentTimeRuleTest {
     @Test
     public void testValidFlight() {
         Segment validSegment = new Segment(currentDateTime.plusHours(1), currentDateTime.plusHours(2));
-        Flight validFlight = new Flight(Arrays.asList(validSegment));
+        Flight validFlight = new Flight(List.of(validSegment));
 
         assertTrue(rule.isFlightValid(validFlight));
     }
@@ -36,7 +37,7 @@ public class DepartureBeforeCurrentTimeRuleTest {
     @Test
     public void testInvalidFlight() {
         Segment invalidSegment = new Segment(currentDateTime.minusHours(1), currentDateTime.plusHours(1));
-        Flight invalidFlight = new Flight(Arrays.asList(invalidSegment));
+        Flight invalidFlight = new Flight(List.of(invalidSegment));
 
         assertFalse(rule.isFlightValid(invalidFlight));
     }
@@ -44,7 +45,7 @@ public class DepartureBeforeCurrentTimeRuleTest {
     @Test
     public void testEmptySegments() {
         initializeRule = false;
-        Flight emptyFlight = new Flight(Arrays.asList());
+        Flight emptyFlight = new Flight(List.of());
 
         assertFalse(rule.isFlightValid(emptyFlight));
     }
