@@ -27,7 +27,7 @@ public class TotalTimeOnGroundRule implements FlightFilterStrategy {
             totalGroundTime = timeOnGround.plus(totalGroundTime);
             previousSegment = currentSegment;
 
-            if (totalGroundTime.toMinutes() > 120) {
+            if (totalGroundTime.toMinutes() >= 120) {
                 return true;
             }
         }

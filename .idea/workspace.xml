@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="GT-0: added skeleton project">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilter.java" afterDir="false" />
+    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/rules/SegmentsArrivalBeforeDepartureRuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/rules/TotalTimeOnGroundRuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/rules/TotalTimeOnGroundRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/rules/TotalTimeOnGroundRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/model/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/model/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/model/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/model/Segment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +23,8 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -39,6 +46,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,23 +56,101 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gridnine.testing.filter.rules" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TotalTimeOnGroundRuleTest">
+    <configuration name="SegmentsArrivalBeforeDepartureRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GridnineTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gridnine.testing.model.*" />
+          <option name="PATTERN" value="com.gridnine.testing.filter.rules.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.gridnine.testing.filter.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.filter.rules.SegmentsArrivalBeforeDepartureRuleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SegmentsArrivalBeforeDepartureRuleTest.testInvalidFlight2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GridnineTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gridnine.testing.filter.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gridnine.testing.filter.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.filter.rules.SegmentsArrivalBeforeDepartureRuleTest" />
+      <option name="METHOD_NAME" value="testInvalidFlight2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TotalTimeOnGroundRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GridnineTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gridnine.testing.filter.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gridnine.testing.filter.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.filter.rules.TotalTimeOnGroundRuleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TotalTimeOnGroundRuleTest.testInvalidFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GridnineTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gridnine.testing.filter.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gridnine.testing.filter.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.filter.rules.TotalTimeOnGroundRuleTest" />
+      <option name="METHOD_NAME" value="testInvalidFlight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TotalTimeOnGroundRuleTest.testValidFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GridnineTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gridnine.testing.filter.rules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gridnine.testing.filter.rules" />
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.filter.rules.TotalTimeOnGroundRuleTest" />
+      <option name="METHOD_NAME" value="testValidFlight" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TotalTimeOnGroundRuleTest" />
+        <item itemvalue="JUnit.TotalTimeOnGroundRuleTest.testInvalidFlight" />
+        <item itemvalue="JUnit.TotalTimeOnGroundRuleTest.testValidFlight" />
+        <item itemvalue="JUnit.SegmentsArrivalBeforeDepartureRuleTest.testInvalidFlight2" />
+        <item itemvalue="JUnit.SegmentsArrivalBeforeDepartureRuleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -74,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696249177796</updated>
-      <workItem from="1696249178842" duration="4745000" />
+      <workItem from="1696249178842" duration="17030000" />
     </task>
     <task id="LOCAL-00001" summary="GT-0: added skeleton project">
       <option name="closed" value="true" />
@@ -84,7 +172,31 @@
       <option name="project" value="LOCAL" />
       <updated>1696254204994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="GT-1: added logic for the FlightFilter class">
+      <option name="closed" value="true" />
+      <created>1696254453525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696254453525</updated>
+    </task>
+    <task id="LOCAL-00003" summary="GT-2: added logic for rules">
+      <option name="closed" value="true" />
+      <created>1696262008367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696262008367</updated>
+    </task>
+    <task id="LOCAL-00004" summary="GT-4: fixed SegmentsArrivalBeforeDepartureRule logic">
+      <option name="closed" value="true" />
+      <created>1696267400478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696267400478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +215,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GT-0: added skeleton project" />
-    <option name="LAST_COMMIT_MESSAGE" value="GT-0: added skeleton project" />
+    <MESSAGE value="GT-1: added logic for the FlightFilter.java" />
+    <MESSAGE value="GT-2: added logic for rules" />
+    <MESSAGE value="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/rules/SegmentsArrivalBeforeDepartureRule.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
