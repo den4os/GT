@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="GT-8: edited pom">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +46,6 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.25862068&quot;,
@@ -166,9 +163,6 @@
       <workItem from="1696422061053" duration="5000" />
       <workItem from="1696514445565" duration="106000" />
       <workItem from="1698939464056" duration="320000" />
-      <workItem from="1698948253089" duration="213000" />
-      <workItem from="1698948472382" duration="1375000" />
-      <workItem from="1699104531182" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary="GT-0: added skeleton project">
       <option name="closed" value="true" />
@@ -218,39 +212,7 @@
       <option name="project" value="LOCAL" />
       <updated>1698947313811</updated>
     </task>
-    <task id="LOCAL-00007" summary="GT-8: edited pom">
-      <option name="closed" value="true" />
-      <created>1698948031715</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1698948031715</updated>
-    </task>
-    <task id="LOCAL-00008" summary="GT-8: edited pom">
-      <option name="closed" value="true" />
-      <created>1698948077079</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1698948077079</updated>
-    </task>
-    <task id="LOCAL-00009" summary="GT-4: added rules tests and minor fixes&#10;&#10;(cherry picked from commit b2dcb94dad3d17c9121743f8d946520b83154d5a)&#10;&#10;(cherry picked from commit 57369846ed3060f2f4eef2cf2a2d2e0082016af0)">
-      <option name="closed" value="true" />
-      <created>1698948101326</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1698948101326</updated>
-    </task>
-    <task id="LOCAL-00010" summary="GT-8: edited pom">
-      <option name="closed" value="true" />
-      <created>1698948485775</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1698948485775</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,8 +236,6 @@
     <MESSAGE value="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic" />
     <MESSAGE value="GT-5: added FlightFilter tests and minor fixes" />
     <MESSAGE value="GT-6: edited pom&#10;&#10;(cherry picked from commit 39c88fd62ec63341646614cf4b83eb8b8be2f5e1)" />
-    <MESSAGE value="GT-4: added rules tests and minor fixes&#10;&#10;(cherry picked from commit b2dcb94dad3d17c9121743f8d946520b83154d5a)&#10;&#10;(cherry picked from commit 57369846ed3060f2f4eef2cf2a2d2e0082016af0)" />
-    <MESSAGE value="GT-8: edited pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="GT-8: edited pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="GT-6: edited pom&#10;&#10;(cherry picked from commit 39c88fd62ec63341646614cf4b83eb8b8be2f5e1)" />
   </component>
 </project>
