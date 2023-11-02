@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/FlightFilterTest.java" afterDir="false" />
+    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="GT-5: added FlightFilter tests and minor fixes">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/rules/SegmentsArrivalBeforeDepartureRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/rules/SegmentsArrivalBeforeDepartureRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/rules/DepartureBeforeCurrentTimeRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/rules/DepartureBeforeCurrentTimeRuleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/rules/SegmentsArrivalBeforeDepartureRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/rules/SegmentsArrivalBeforeDepartureRuleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/rules/TotalTimeOnGroundRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gridnine/testing/filter/rules/TotalTimeOnGroundRuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.25862068",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -68,7 +67,7 @@
       <recent name="com.gridnine.testing.filter.rules" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlightFilterTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.Main" />
       <module name="GridnineTest" />
@@ -145,24 +144,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="GridnineTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="GridnineTest" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FlightFilterTest" />
         <item itemvalue="JUnit.FlightFilterTest.testDbctrAndSAbdr" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FlightFilterTest.testTotalTimeOnGroundRule" />
         <item itemvalue="JUnit.FlightFilterTest.testSegmentsArrivalBeforeDepartureRule" />
       </list>
@@ -177,6 +163,10 @@
       <option name="presentableId" value="Default" />
       <updated>1696249177796</updated>
       <workItem from="1696249178842" duration="17030000" />
+      <workItem from="1696326242994" duration="1546000" />
+      <workItem from="1696422061053" duration="5000" />
+      <workItem from="1696514445565" duration="106000" />
+      <workItem from="1698939464056" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="GT-0: added skeleton project">
       <option name="closed" value="true" />
@@ -210,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696267400478</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="GT-5: added FlightFilter tests and minor fixes">
+      <option name="closed" value="true" />
+      <created>1696279195506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696279195506</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +230,7 @@
     <MESSAGE value="GT-1: added logic for the FlightFilter.java" />
     <MESSAGE value="GT-2: added logic for rules" />
     <MESSAGE value="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic" />
+    <MESSAGE value="GT-5: added FlightFilter tests and minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="GT-5: added FlightFilter tests and minor fixes" />
   </component>
 </project>
