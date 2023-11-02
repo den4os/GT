@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="GT-6: edited pom" />
+    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="GT-7: added workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +228,8 @@
     <MESSAGE value="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic" />
     <MESSAGE value="GT-4: added rules tests and minor fixes&#10;&#10;(cherry picked from commit b2dcb94dad3d17c9121743f8d946520b83154d5a)" />
     <MESSAGE value="GT-6: edited pom" />
-    <option name="LAST_COMMIT_MESSAGE" value="GT-6: edited pom" />
+    <MESSAGE value="GT-7: added workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="GT-7: added workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
