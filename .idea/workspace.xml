@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="" />
+    <list default="true" id="01ceeaed-28ce-4a4d-98fd-3269e2dbaf24" name="Changes" comment="GT-8: edited pom" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -212,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698947313811</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GT-8: edited pom">
+      <option name="closed" value="true" />
+      <created>1698948031715</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698948031715</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +244,7 @@
     <MESSAGE value="GT-3: fixed SegmentsArrivalBeforeDepartureRule logic" />
     <MESSAGE value="GT-5: added FlightFilter tests and minor fixes" />
     <MESSAGE value="GT-6: edited pom&#10;&#10;(cherry picked from commit 39c88fd62ec63341646614cf4b83eb8b8be2f5e1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="GT-6: edited pom&#10;&#10;(cherry picked from commit 39c88fd62ec63341646614cf4b83eb8b8be2f5e1)" />
+    <MESSAGE value="GT-8: edited pom" />
+    <option name="LAST_COMMIT_MESSAGE" value="GT-8: edited pom" />
   </component>
 </project>
