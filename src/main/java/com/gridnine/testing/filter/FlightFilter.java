@@ -22,7 +22,7 @@ public class FlightFilter {
         for (Flight flight : flights) {
             boolean isValid = true;
 
-            for (FlightFilterStrategy rule : filterStrategies) {
+            for (FlightFilterStrategy rule : filterStrategies) {;
                 if (!rule.isFlightValid(flight)) {
                     isValid = false;
                     break;
